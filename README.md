@@ -28,6 +28,6 @@ Open the Cypress interface:
 <h2>Project Structure</h2>
 * <b>cypress/:</b> Main directory for Cypress tests.</p>
 <p>* <b>e2e/</b>: End-to-end tests.</p> 
-<p>* fixtures/: Test data.</p> 
-<p>* Page Object Models to encapsulate page interactions and elements</p>
-<p>* Support and configuration files.</p>
+<p>* <b>fixtures/:</b> Test data.</p> 
+<p>* <b>PageObjects/:</b> Page Object Models to encapsulate page interactions and elements</p>
+<p>* <b>support/:</b> Support and configuration files.</p>
