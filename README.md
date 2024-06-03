@@ -15,7 +15,7 @@ Follow the steps below to set up and run the Cypress tests:
 
 <b>Clone the repository:</b>
 git clone https://github.com/Danielabdr/Projects.git
-<b>Install dependencies:</b>
+<p><b>Install dependencies:</b></p>
 npm install
 
 <b>Run Cypress tests:</b>
