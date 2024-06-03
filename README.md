@@ -14,9 +14,7 @@ This project is a set of automated tests using Cypress for the existing website 
 Follow the steps below to set up and run the Cypress tests:
 
 <b>Clone the repository:</b>
-git clone https://github.com/your-username/tmdb-cypress-tests.git
-cd tmdb-cypress-tests
-
+git clone https://github.com/Danielabdr/Projects.git
 <b>Install dependencies:</b>
 npm install
 
