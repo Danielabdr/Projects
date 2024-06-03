@@ -1,60 +1,34 @@
 <h1>TMDB Website Testing with Cypress</h1>
-<h2>Descrierea Proiectului</h2>
-Acest proiect reprezintă o aplicație web care utilizează API-ul The Movie Database (TMDB) pentru a afișa informații despre filme și seriale. Proiectul include un set de teste automate folosind Cypress, un framework de testare end-to-end pentru aplicații web.
+<h2>Project description</h2>
+This project is a set of automated tests using Cypress for the existing website TMDB (The Movie Data Base). The goal of this project is to practice and demonstrate how to write and run end-to-end tests to verify the functionalities of a web application
 
-Scopul acestui proiect este de a demonstra cum se poate configura și utiliza Cypress pentru a testa diferite funcționalități ale unui site web care consumă date dintr-un API extern.
+<h2>Tested Features</h2>
+<b>Searching for movies:</b> Testing the search functionality for movies and TV shows.
+<b>Movie details:</b> Verifying the display of additional details for each movie, such as description, rating, cast, and trailers.
+<h2>Technologies Used</h2>
 
-Funcționalități
-Afișarea filmelor populare: Pagina principală afișează o listă cu filme populare preluate de la API-ul TMDB.
-Căutarea filmelor: Utilizatorii pot căuta filme și seriale utilizând un câmp de căutare.
-Detalii film: Fiecare film are o pagină dedicată care afișează detalii suplimentare precum descriere, evaluare, actori și trailere.
-Testare automată: Set de teste automate folosind Cypress pentru a verifica funcționalitatea principală a site-ului.
-Tehnologii Utilizate
-HTML/CSS/JavaScript: Pentru dezvoltarea interfeței web.
-API TMDB: Pentru a obține date despre filme și seriale.
-Cypress: Pentru testare end-to-end automată.
-Instalare și Configurare
-Urmați pașii de mai jos pentru a configura și rula proiectul local:
+<b>Cypress:</b> For end-to-end automated testing.
 
-Clonează repository-ul:
+<h2>Installation and Setup</h2>
+Follow the steps below to set up and run the Cypress tests:
 
-bash
-Copiază codul
-git clone https://github.com/numele-tau/tmdb-cypress.git
-cd tmdb-cypress
-Instalează dependințele:
+<b>Clone the repository:</b>
+git clone https://github.com/your-username/tmdb-cypress-tests.git
+cd tmdb-cypress-tests
 
-bash
-Copiază codul
+<b>Install dependencies:</b>
 npm install
-Configurarea API Key TMDB:
 
-Creează un fișier .env în directorul rădăcină al proiectului.
-Adaugă următoarea linie în fișierul .env:
-plaintext
-Copiază codul
-REACT_APP_TMDB_API_KEY=your_api_key_here
-Înlocuiește your_api_key_here cu cheia ta API TMDB.
-Rularea aplicației:
+<b>Run Cypress tests:</b>
 
-bash
-Copiază codul
-npm start
-Rularea testelor Cypress:
-
-Deschide interfața Cypress:
-bash
-Copiază codul
+<b>Open the Cypress interface:</b>
 npx cypress open
-Selectează testele pe care dorești să le rulezi.
-Structura Proiectului
-src/: Directorul principal al aplicației web, conține fișierele sursă.
-components/: Componente React reutilizabile.
-pages/: Pagini ale aplicației.
-services/: Fișiere pentru integrarea cu API-ul TMDB.
-cypress/: Directorul principal pentru testele Cypress.
-integration/: Teste end-to-end.
-fixtures/: Date de test.
-plugins/: Plugin-uri Cypress.
-support/: Fișiere de suport și configurație.
-Contribuții
+
+<b>Select the tests you want to run.</b>
+
+<h2>Project Structure</h2>h2>
+<b>cypress/:</b> Main directory for Cypress tests.
+<b>e2e/:</b> End-to-end tests.
+<b>fixtures/:</b> Test data.
+<b>plugins/</b> Cypress plugins.
+<b>support/</b> Support and configuration files.
