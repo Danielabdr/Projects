@@ -4,7 +4,7 @@ This project is a set of automated tests using Cypress for the existing website 
 
 <h2>Tested Features</h2>
 <b>Searching for movies:</b> Testing the search functionality for movies and TV shows.
-<b>Movie details:</b> Verifying the display of additional details for each movie, such as description, rating, cast, and trailers.
+<p><b>Movie details:</b> Verifying the display of additional details for each movie, such as description, rating, cast, and trailers.</p>
 
 <h2>Technologies Used</h2>
 
