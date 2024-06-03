@@ -11,11 +11,11 @@ This project is a set of automated tests using Cypress for the existing website 
 <b>Cypress:</b> For end-to-end automated testing.
 
 <h2>Installation and Setup</h2>
-Follow the steps below to set up and run the Cypress tests:
 
-<b>Clone the repository:</b>
+<b>Follow the steps below to set up and run the Cypress tests:</b>
+* Clone the repository:
 git clone https://github.com/Danielabdr/Projects.git
-<p><b>Install dependencies:</b></p>
+* Install dependencies:
 npm install
 
 <b>Run Cypress tests:</b>
