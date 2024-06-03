@@ -1,6 +1,6 @@
 <h1>TMDB Website Testing with Cypress</h1>
 <h2>Project description</h2>
-This project is a set of automated tests using Cypress for the existing website TMDB (The Movie Data Base). The goal of this project is to practice and demonstrate how to write and run end-to-end tests to verify the functionalities of a web application
+This project is a set of automated tests using Cypress for the existing website TMDB (The Movie Data Base). The goal of this project is to practice and demonstrate how to write and run end-to-end tests to verify the functionalities of a web application.
 
 <h2>Tested Features</h2>
 <b>Searching for movies:</b> Testing the search functionality for movies and TV shows.
