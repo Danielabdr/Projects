@@ -20,10 +20,10 @@ npm install
 
 <b>Run Cypress tests:</b>
 
-<b>Open the Cypress interface:</b>
-npx cypress open
+Open the Cypress interface:
+* npx cypress open
 
-<b>Select the tests you want to run.</b>
+* Select the tests you want to run
 
 <h2>Project Structure</h2>h2>
 <b>cypress/:</b> Main directory for Cypress tests.
