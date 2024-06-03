@@ -26,8 +26,8 @@ Open the Cypress interface:
 * Select the tests you want to run
 
 <h2>Project Structure</h2>
-* cypress/: Main directory for Cypress tests.</p>
-<p>* e2e/: End-to-end tests.</p> 
+* <b>cypress/:</b> Main directory for Cypress tests.</p>
+<p>* <b>e2e/</b>: End-to-end tests.</p> 
 <p>* fixtures/: Test data.</p> 
 <p>* Page Object Models to encapsulate page interactions and elements</p>
 <p>* Support and configuration files.</p>
