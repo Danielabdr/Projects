@@ -1,4 +1,4 @@
-***TMDB Website Testing with Cypress
+<h1>TMDB Website Testing with Cypress</h1>
 Descrierea Proiectului
 Acest proiect reprezintă o aplicație web care utilizează API-ul The Movie Database (TMDB) pentru a afișa informații despre filme și seriale. Proiectul include un set de teste automate folosind Cypress, un framework de testare end-to-end pentru aplicații web.
 
