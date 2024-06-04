@@ -17,7 +17,7 @@ describe('Test Login Page', () => {
     })
 
   afterEach( function() {
-    if (this.currentTest.title != 'should navigate to the login page when the login button is clicked')
+    if (this.currentTest.title != 'should navigate to the login page when the login button is clicked' & this.currentTest.title != 'Login page negative testing')
       {
         ln2.logout()
         ln2.verifyLogoutMessage()
@@ -37,17 +37,6 @@ describe('Test Login Page', () => {
   
     })
 
-  it('Login page negative testing', () =>
-    {
-    cy.fixture('TMDB_login_fixture').then( (data) => {
-      ln2.setInvalidUsername(data.setInvalidUsername)
-      ln2.setInvalidPassword(data.setInvalidPassword)
-      ln2.clickLoginButton()
-      cy.get(".error_message").should("be.visible")
-  
-    })
-
-  })
 
    /*  const ln = new Login();
     ln.setUsername("Danielabdr");
@@ -56,4 +45,15 @@ describe('Test Login Page', () => {
     ln.verifyLogin;
  */
   })
+
+  it('Login page negative testing', () =>
+    {
+    cy.fixture('TMDB_login_fixture').then( (data) => {
+      ln2.setInvalidUsername(data.invalid_username)
+      ln2.setInvalidPassword(data.invalid_password)
+      ln2.clickLoginButton()
+      ln2.verifyFailedLogin(data.error_message)
+    })
+  
+    })
 })

@@ -66,5 +66,10 @@ class Login
     {
         cy.get(this.txtLoggedoutMessage).should('contain', "Logged Out!")
     }
+
+    verifyFailedLogin(error_message)
+    {
+        cy.get(this.txtLoginErrorMessage).should('be.visible').and('contain', error_message)
+    }
 }
 export default Login;
