@@ -1,3 +1,5 @@
+import home_selectors from "../PageElements/home_page_elements"
+
 class HomePage
 {
     visithomepage(){
@@ -6,7 +8,10 @@ class HomePage
 
     clickloginpagebutton(){
 
-        cy.get("body > div:nth-child(2) > header:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)").click()
+        cy.get(home_selectors.txtLoginPageButton).click()
+    }
+    acceptCookiesButton(){
+        cy.get(home_selectors.txtAcceptCookiesButton).click()
     }
 }
 export default HomePage

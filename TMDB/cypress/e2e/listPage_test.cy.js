@@ -7,7 +7,7 @@ describe("Test account's list page - Create list", () => {
     setupBeforeEach();
     setupAfterEach();
 
-    it('User should be able to create a list with name containing letters, numbers, and special characters', () => {
+    it('should be able to create a list with name containing letters, numbers, and special characters', () => {
         cy.fixture('TMDB_list_fixture').then((data) => {
             ln1.clickListButton();
             ln1.clickCreateListButton();
